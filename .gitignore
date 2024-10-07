@@ -1,4 +1,12 @@
-*.idea*
-venv
-*iml
-*xml
+# Ignore all XML files
+*.xml
+
+# Ignore PyCharm specific folders and files
+.idea/
+*.iml
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore virtual environments
+venv/
